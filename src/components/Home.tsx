@@ -1,25 +1,33 @@
+import styled from "styled-components";
+import Header from './Header'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const homeImage = require('../photos/DSC00236.JPG')
+
+const HomeDiv = styled.div`
+  margin: 6rem 4rem 4rem 4rem;
+  display: flex;
+  justify-content: space-evenly;
+`;
+
+const HomeImg = styled.img`
+  height: 40rem;
+  width: auto;
+  border-radius: 2rem;
+  border: 1rem solid rgb(238, 226, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 const Home = () => {
-    return (
+  return (
     <>
-      <div>
-          <h1>Hi, I am Scott Hall</h1>
-      </div>
-      <div>
-          <h2>
-          Full Stack Developer
-          (not the wrestler, sorry!)
-          </h2>
-      </div>
-      <div>
-        <h2>Projects</h2>
-          List of Projects
-      </div>
-      <div>
-          <h2>Skills</h2>
-          List of Skills
-      </div>
+      <HomeDiv>
+          <Header />
+          <HomeImg src={homeImage} alt="personal photo" />
+      </HomeDiv>
     </>
-    );
-  };
+  );
+};
   
   export default Home;
