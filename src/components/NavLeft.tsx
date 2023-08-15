@@ -9,7 +9,7 @@ const StyledDiv = styled.div`
 
 const Name = styled(Link)`
     &:hover {
-        color: rgb(238, 226, 222);
+        color: rgb(234, 144, 108);
     }
 `;    
 

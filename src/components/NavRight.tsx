@@ -9,12 +9,13 @@ const StyledDiv = styled.div`
 `;
 
 const ContactButton = styled(Link)`
-    background-color: rgb(238, 226, 222);
-    color: rgb(43, 42, 76);
+    background-color: rgb(179, 19, 18);
+    color: white;
     padding: 1rem;
     border-radius: 1rem;
     &:hover {
-        color: rgb(179, 19, 18);
+        background-color: rgb(43, 42, 76);
+        color: white;
     }
 `;
 

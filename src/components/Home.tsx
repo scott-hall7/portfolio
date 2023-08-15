@@ -1,32 +1,26 @@
 import styled from "styled-components";
 import Header from './Header'
+import Image from './Image'
+import { LayoutDiv } from "../GlobalStyle";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const homeImage = require('../photos/DSC00236.JPG')
 
-const HomeDiv = styled.div`
-  margin: 6rem 4rem 4rem 4rem;
+const HomeContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
-`;
-
-const HomeImg = styled.img`
-  height: 40rem;
-  width: auto;
-  border-radius: 2rem;
-  border: 1rem solid rgb(238, 226, 222);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 5rem;
+  @media (max-width: 1220px) {
+    flex-direction: column;
+    gap: 3rem;
+  }
 `;
 
 const Home = () => {
   return (
-    <>
-      <HomeDiv>
+    <LayoutDiv>
+      <HomeContainer>
           <Header />
-          <HomeImg src={homeImage} alt="personal photo" />
-      </HomeDiv>
-    </>
+          <Image />
+      </HomeContainer>
+    </LayoutDiv>
   );
 };
   

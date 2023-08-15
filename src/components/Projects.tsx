@@ -1,8 +1,12 @@
+import { LayoutDiv, PageContainer, PageHeader } from "../GlobalStyle";
+
 const Projects = () => {
     return (
-      <div>
-        Projects
-      </div>
+      <LayoutDiv>
+        <PageContainer>
+          <PageHeader>Projects</PageHeader>
+        </PageContainer>
+      </LayoutDiv>
     );
   };
   

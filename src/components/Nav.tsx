@@ -12,17 +12,22 @@ const StyledUl = styled.ul`
   align-items: center;
 `;
 
+const StyledNav = styled.nav`
+  padding: 1rem 1rem 0rem 1rem;
+`;
+
+
 
 const Nav = () => {
     const match = useMatch('/')
 
     return (
-        <nav>
+        <StyledNav>
             <StyledUl>
                 <NavLeft></NavLeft>
                 <NavRight match={match}></NavRight>
             </StyledUl>
-        </nav>
+        </StyledNav>
     )
 };
 

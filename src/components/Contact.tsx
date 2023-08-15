@@ -1,20 +1,75 @@
-import Nav from './Nav'
+import PersonalLinks from "./PersonalLinks";
+import { LayoutDiv, PageContainer, PageHeader } from "../GlobalStyle";
+import styled from 'styled-components'
+
+const ContactForm = styled.form`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgb(234, 144, 108);
+`;
+
+const InputDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
+const FormInput = styled.input`
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+`;
+
+const FormTextArea = styled.textarea`
+    height: 6rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+`;
+
+const FormButton = styled.button`
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(179, 19, 18);
+    color: white;
+    border: none;
+    &:hover {
+        background-color: rgb(43, 42, 76);
+        color: white;
+    }
+`;
 
 const Contact = () => {
     return (
-        <div>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="a5151c3f-6b81-4fd0-ad47-9b45e70d5099"></input>
-                <input type="hidden" name="redirect" value="google.com"></input>
-                <label htmlFor="name">Name</label>
-                <input type="text" name="name" required />
-                <label htmlFor="email">Email</label>
-                <input type="email" name="email" required />
-                <label htmlFor="message">Message</label>
-                <textarea name="message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <LayoutDiv>
+            <PageContainer>
+                <PageHeader>Contact Me!</PageHeader>
+                <ContactForm action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a5151c3f-6b81-4fd0-ad47-9b45e70d5099"></input>
+                    <input type="hidden" name="redirect" value="google.com"></input>
+                    <InputDiv>
+                        <label htmlFor="name">Name</label>
+                        <FormInput type="text" name="name" required />
+                    </InputDiv>
+                    <InputDiv>
+                        <label htmlFor="email">Email</label>
+                        <FormInput type="email" name="email" required />
+                    </InputDiv>
+                    <InputDiv>
+                        <label htmlFor="message">Message</label>
+                        <FormTextArea name="message"></FormTextArea>
+                    </InputDiv>
+                    <FormButton type="submit">Submit</FormButton>
+                </ContactForm>
+            </PageContainer>
+        </LayoutDiv>
     )
   };
   
