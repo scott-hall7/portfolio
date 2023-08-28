@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.169aeb56.js",
+    "static/media/home.jpg": "/portfolio/static/media/home.d4587c2399e25bba260e.jpg",
+    "static/media/space.png": "/portfolio/static/media/space.5a4a430f1bb800052b4e.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.268b8aa0724d2395869c.png",
+    "static/media/smells.png": "/portfolio/static/media/smells.5665aac0a5f2857d8439.png",
+    "static/media/resume.png": "/portfolio/static/media/resume.2f89237649d4f8137d33.png",
+    "static/media/battleship.png": "/portfolio/static/media/battleship.5c80c9b98ef745aa5a48.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.e67d9c8de67c195d4a3d.png",
+    "static/media/Scott-Hall-Resume.pdf": "/portfolio/static/media/Scott-Hall-Resume.8233832950d1f9043016.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.169aeb56.js.map": "/portfolio/static/js/main.169aeb56.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.169aeb56.js"
+  ]
+}
