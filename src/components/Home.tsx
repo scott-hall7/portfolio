@@ -1,15 +1,17 @@
 import styled from "styled-components";
-import Header from './Header'
-import Image from './Image'
+import HomeText from './HomeText'
+import HomeImage from './HomeImage'
 import { LayoutDiv } from "../GlobalStyle";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 
 const HomeContainer = styled.div`
   display: flex;
-  gap: 5rem;
-  @media (max-width: 1220px) {
+  gap: 9rem;
+  padding: 1rem 1rem 3rem 1rem;
+  margin: 0px 2rem;
+  @media (max-width: 1400px) {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
   }
 `;
 
@@ -17,8 +19,8 @@ const Home = () => {
   return (
     <LayoutDiv>
       <HomeContainer>
-          <Header />
-          <Image />
+          <HomeText/>
+          <HomeImage />
       </HomeContainer>
     </LayoutDiv>
   );

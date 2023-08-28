@@ -1,4 +1,3 @@
-import PersonalLinks from "./PersonalLinks";
 import { LayoutDiv, PageContainer, PageHeader } from "../GlobalStyle";
 import styled from 'styled-components'
 
@@ -6,9 +5,8 @@ const ContactForm = styled.form`
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 1.5rem;
+    gap: 1rem;
     font-size: 2rem;
-    text-shadow: 1px 1px rgb(234, 144, 108);
 `;
 
 const InputDiv = styled.div`

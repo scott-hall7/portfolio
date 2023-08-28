@@ -1,33 +1,30 @@
 import NavLeft from "./NavLeft";
-import NavRight from "./NavRight";
 import { useMatch } from "react-router";
+import HomeNav from './HomeNav'
+import PageNav from './PageNav'
 import styled from "styled-components";
 
-const StyledUl = styled.ul`
+const NavUl = styled.ul`
   list-style-type: none;
   font-size: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 8rem;
   align-items: center;
+  padding: 1rem;
 `;
-
-const StyledNav = styled.nav`
-  padding: 1rem 1rem 0rem 1rem;
-`;
-
-
 
 const Nav = () => {
-    const match = useMatch('/')
+    const match = useMatch('/');
+    const navRight = match ? <HomeNav /> : <PageNav />;
 
     return (
-        <StyledNav>
-            <StyledUl>
+        <nav>
+            <NavUl>
                 <NavLeft></NavLeft>
-                <NavRight match={match}></NavRight>
-            </StyledUl>
-        </StyledNav>
+                {navRight}
+            </NavUl>
+        </nav>
     )
 };
 
