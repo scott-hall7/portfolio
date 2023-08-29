@@ -45,7 +45,7 @@ const LinksDiv = styled.div`
   gap: 2rem;
 `;
 
-const Link = styled.a`
+const ViewLink = styled.a`
   color: white;
   background-color: rgb(43, 42, 76);
   padding: .5rem;
@@ -72,8 +72,8 @@ const Project = ({project}: ProjectType) => {
       <ProjectH2>{project.name}</ProjectH2>
       <ProjectImg src={project.image} />
       <LinksDiv>
-        <Link  href={project.github}>View GitHub</Link >
-        <Link  href={project.deployment}>View Project</Link >
+        <ViewLink href={project.github}>View GitHub</ViewLink >
+        <ViewLink href={project.deployment}>View Project</ViewLink >
       </LinksDiv>
     </ProjectDiv>
   )

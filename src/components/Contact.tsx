@@ -15,7 +15,7 @@ const InputDiv = styled.div`
 `;
 
 const FormInput = styled.input`
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem;
     background-color: white;
     border-radius: 1rem;
@@ -23,7 +23,7 @@ const FormInput = styled.input`
 `;
 
 const FormTextArea = styled.textarea`
-    height: 6rem;
+    height: rem;
     font-size: 1.5rem;
     padding: 1.5rem;
     background-color: white;
@@ -51,7 +51,7 @@ const Contact = () => {
                 <PageHeader>Contact Me!</PageHeader>
                 <ContactForm action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="a5151c3f-6b81-4fd0-ad47-9b45e70d5099"></input>
-                    <input type="hidden" name="redirect" value="google.com"></input>
+                    <input type="hidden" name="redirect" value="https://www.scotthall.dev/"></input>
                     <InputDiv>
                         <label htmlFor="name">Name</label>
                         <FormInput type="text" name="name" required />

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-import styled from "styled-components";
 const homeImage = require('../photos/home.jpg')
+import styled from "styled-components";
 
 const ImageDiv = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ const ImageDiv = styled.div`
 `;
 
 const HomeImg = styled.img`
-  max-height: 600px;
+  max-height: 500px;
   width: auto;
   border-radius: 2rem;
   @media (max-width: 600px) {

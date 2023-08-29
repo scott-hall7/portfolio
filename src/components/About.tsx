@@ -1,8 +1,8 @@
 import TechnicalSkills from "./TechnicalSkills";
+import { LayoutDiv, PageContainer, PageHeader } from "../GlobalStyle";
 import { styled } from "styled-components";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const resume = require('../Scott-Hall-Resume.pdf')
-import { LayoutDiv, PageContainer, PageHeader } from "../GlobalStyle";
 
 const StyledLink = styled.a`
   background-color: rgb(179, 19, 18);
@@ -26,7 +26,7 @@ const About = () => {
           <p><b>Outside of work</b> I like to lift weights, run, and occasionally do yoga. I like good coffee, but I swear I am not addicted to it (probably am).</p>
           <p>I like to cook and my favorite thing to make is a chicken cutlet, but clean-up is a hassle. I like to read, but I am pretty inconsistent at it (currently reading: <i>LOTR</i> & <i>The Pacific Crucible)</i>.</p>
           <p>On Sundays, I will usually watch the Tennessee Titans play some mediocre football. I love Mid-century design and homes which I rarely talk about it.</p>
-          <StyledLink href={resume} target="_blank" rel="noopener noreferrer">View my resume</StyledLink>
+          <StyledLink href={resume} target="_blank" rel="noopener noreferrer">View Resume</StyledLink>
         </PageContainer>
       </LayoutDiv>
     );

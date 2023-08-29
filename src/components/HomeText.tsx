@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { Link } from 'react-router-dom'
+import styled from "styled-components";
 
 const HomeTextDiv = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ const HomeTextDiv = styled.div`
 `;
 
 const StyledH1 = styled.h1`
-  font-size: 8rem;
+  font-size: 6rem;
   text-shadow: 3px 3px rgb(234, 144, 108);
 `;
 

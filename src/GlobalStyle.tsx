@@ -1,5 +1,5 @@
-import { styled, createGlobalStyle } from 'styled-components';
 import { Link } from 'react-router-dom'
+import { styled, createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -54,8 +54,8 @@ export const PageContainer = styled.div`
   justify-content: center;
   width: 600px;
   align-items: center;
-  gap: 2rem;
-  font-size: 1.5rem;
+  gap: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 2rem;
   @media (max-width: 700px) {
@@ -65,7 +65,7 @@ export const PageContainer = styled.div`
 `;
 
 export const PageHeader = styled.h1`
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-shadow: 2px 2px rgb(234, 144, 108);
 `;
 

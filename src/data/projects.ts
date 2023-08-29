@@ -41,7 +41,7 @@ const projects = [
         name: "Portfolio",
         image: portfolio,
         github: "https://github.com/scott-hall7/portfolio",
-        deployment: "scotthall.dev",
+        deployment: "/",
     },
 ]
 

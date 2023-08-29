@@ -1,8 +1,7 @@
-import styled from "styled-components";
 import HomeText from './HomeText'
 import HomeImage from './HomeImage'
 import { LayoutDiv } from "../GlobalStyle";
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+import styled from "styled-components";
 
 const HomeContainer = styled.div`
   display: flex;

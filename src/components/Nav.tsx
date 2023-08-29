@@ -1,5 +1,5 @@
-import NavLeft from "./NavLeft";
 import { useMatch } from "react-router";
+import NavLeft from "./NavLeft";
 import HomeNav from './HomeNav'
 import PageNav from './PageNav'
 import styled from "styled-components";
