@@ -12,4 +12,4 @@ A website used to display my projects and talk more about myself.
 [Deployment](https://www.scotthall.dev/)
 
 ## Project Display
-![Portfolio Screenshot](https://github.com/scott-hall7/memory-game/blob/main/src/photos/portfolio.png "App Preview")
+![Portfolio Screenshot](https://github.com/scott-hall7/portfolio/blob/main/src/photos/portfolio.png "App Preview")
