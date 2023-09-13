@@ -32,7 +32,7 @@ const HomeText = () => {
     return (
       <HomeTextDiv>
         <StyledH1>Full<br/>Stack<br/>Developer</StyledH1>
-        <StyledH2>(not the <a href="https://en.wikipedia.org/wiki/Scott_Hall">wrestler</a>, sorry!)</StyledH2>
+        <StyledH2>(not the <a href="https://en.wikipedia.org/wiki/Scott_Hall" target="_blank" rel="noopener noreferrer">wrestler</a>, sorry!)</StyledH2>
         <StyledHr />
         <HomeUl>
           <li>

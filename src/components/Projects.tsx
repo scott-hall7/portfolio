@@ -72,8 +72,8 @@ const Project = ({project}: ProjectType) => {
       <ProjectH2>{project.name}</ProjectH2>
       <ProjectImg src={project.image} />
       <LinksDiv>
-        <ViewLink href={project.github}>View GitHub</ViewLink >
-        <ViewLink href={project.deployment}>View Project</ViewLink >
+        <ViewLink href={project.github} target="_blank" rel="noopener noreferrer">View GitHub</ViewLink >
+        <ViewLink href={project.deployment} target="_blank" rel="noopener noreferrer">View Project</ViewLink >
       </LinksDiv>
     </ProjectDiv>
   )

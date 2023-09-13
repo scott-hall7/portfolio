@@ -20,7 +20,7 @@ const About = () => {
       <LayoutDiv>
         <PageContainer>
           <PageHeader>About Me</PageHeader>
-          <p>Hi! My name is <u>Scott</u>. I am a self-taught full stack developer with a background in finance and accounting. Most recently, I was employed as a financial analyst II creating and delivering artist statements in the music industry. I became interested in progamming because it provides the ability to create and design things.</p>
+          <p>Hi! My name is <u>Scott</u>. I am a self-taught full stack developer with a background in finance and accounting. Most recently, I was employed as a financial analyst II creating and delivering artist statements in the music industry. I became interested in progamming because it provides the ability to create and design websites and apps that can provide value to others.</p>
           <p>Self-taught through: <a href="https://www.theodinproject.com/" ><i>the Odin Project</i></a>, <a href="https://fullstackopen.com/en/" ><i>FullStackopen</i></a>, and hours of googling.</p>
           <TechnicalSkills />
           <p><b>Outside of work</b> I like to lift weights, run, and occasionally do yoga. I like good coffee, but I swear I am not addicted to it (probably am).</p>

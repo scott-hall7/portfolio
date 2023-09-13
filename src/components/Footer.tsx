@@ -35,11 +35,11 @@ const Footer = () => {
       <FooterDiv>
         <p>scotthall.dev</p>
         <PersonalLinks>
-            <StyledLink href="https://github.com/scott-hall7">
+            <StyledLink href="https://github.com/scott-hall7" target="_blank" rel="noopener noreferrer">
                 <ImageLink src="https://cdn.simpleicons.org/github/white" alt="link to personal github"/>
             </StyledLink>
-            <StyledLink href="https://www.linkedin.com/in/scott-hall-5b5189130/">
-                <ImageLink src="https://cdn.simpleicons.org/linkedin/white" alt="link to personal linkedin"/>
+            <StyledLink href="https://www.linkedin.com/in/scott-hall-5b5189130/" target="_blank" rel="noopener noreferrer">
+                <ImageLink src="https://cdn.simpleicons.org/linkedin/white" alt="link to personal linkedin" />
             </StyledLink >
         </PersonalLinks>
       </FooterDiv>
